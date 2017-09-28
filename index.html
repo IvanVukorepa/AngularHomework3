@@ -9,8 +9,18 @@
     <script src="scripts/vendor/angular-ui-router.js"></script>
     <script src="scripts/vendor/lodash.js"></script>
 
-</head>
-<body>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/app.config.js"></script>
 
+    <script src="scripts/app/routes/home/home.route.js"></script>
+    <script src="scripts/app/routes/home/homeController.js"></script>
+
+    <script src="scripts/app/services/getAllNewsService.js"></script>
+
+    <base href="/">
+
+</head>
+<body ng-app="app">
+    <div ui-view></div>
 </body>
 </html>

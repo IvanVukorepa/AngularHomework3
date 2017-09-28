@@ -1,0 +1,8 @@
+﻿<h1>News:</h1>
+<div ng-repeat="news in News">
+    {{news.title}}
+    <button>Details</button>
+    <button>Favorite</button>
+</div>
+<button ng-click="showMore()" ng-if="!AllNewsAreShown">show more</button><br><br>
+<span ng-if="AllNewsAreShown">Prikazane su sve vijesti</span>
