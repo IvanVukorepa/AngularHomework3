@@ -1,17 +1,13 @@
 ﻿<h1>News:</h1>
 
-<div ng-hide="showOnlyFavorites" ng-repeat="news in News">
+<div ng-repeat="news in News">
     {{news.title}}
-    <button>Details</button>
+    <button ui-sref="details({id: news.id})">Details</button>
     <button ng-click="favorite(news)">{{isFavorite(news) ? "Unfavorite" : "Favorite"}}</button>
 </div>
-<div ng-show="showOnlyFavorites" ng-repeat="news in getFavorites">
-    {{news.title}}
-    <button>Details</button>
-    <button ng-click="favorite(news)">{{isFavorite(news) ? "Unfavorite" : "Favorite"}}</button>
-</div>
-<button ng-click="showMore()" ng-if="!AllNewsAreShown && !showOnlyFavorites">show more</button><br><br>
 
-<span ng-if="AllNewsAreShown && !showOnlyFavorites">Prikazane su sve vijesti</span>
+<button ng-click="showMore()" ng-if="!AllNewsAreShown">show more</button><br><br>
 
-<button ng-click="toggleFavorites()">{{showOnlyFavorites ? "List all news" : "Go to favorites"}}</button>
+<span ng-if="AllNewsAreShown">Prikazane su sve vijesti</span>
+
+<button ui-sref="favorites">Go to favorites</button>

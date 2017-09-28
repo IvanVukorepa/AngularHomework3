@@ -8,10 +8,6 @@
     $scope.numberOfNewsShown = 1;
     $scope.AllNewsAreShown = false;
 
-    $scope.showOnlyFavorites = false;
-
-    $favoriteNews = favoritesService.getAllFavorites();
-
     $scope.getFavorites = function () {
         return favoritesService.getAllFavorites();
     }
