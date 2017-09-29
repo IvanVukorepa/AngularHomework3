@@ -1,9 +1,15 @@
 ﻿<h1>News:</h1>
 
-<news-lister news="News"></news-lister>
-<br>
-<button ng-click="showMore()" ng-if="!AllNewsAreShown">show more</button><br><br>
+<input ng-model="search" placeholder="Search">
+<div ng-show="search == ''">
+    <news-lister news="News"></news-lister>
+    <br>
+    <button ng-click="showMore()" ng-if="!AllNewsAreShown">show more</button><br><br>
 
-<span ng-if="AllNewsAreShown">Prikazane su sve vijesti</span>
-<br />
-<button ui-sref="favorites">Go to favorites</button>
+    <span ng-if="AllNewsAreShown">Prikazane su sve vijesti</span>
+    <br />
+    <button ui-sref="favorites">Go to favorites</button>
+</div>
+<div ng-hide="search == ''">
+    <news-lister news="AllNews" search1="search"></news-lister>
+</div>

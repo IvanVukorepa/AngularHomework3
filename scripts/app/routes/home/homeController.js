@@ -8,6 +8,7 @@
     $scope.numberOfNewsShown = 1;
     $scope.AllNewsAreShown = false;
 
+    $scope.search = '';
     $scope.getFavorites = function () {
         return favoritesService.getAllFavorites();
     }
@@ -16,14 +17,6 @@
         $scope.News = _.concat($scope.News, $scope.slicedNews[$scope.numberOfNewsShown++]);
         if ($scope.AllNews.length <= $scope.numberOfNewsShown * 2)
             $scope.AllNewsAreShown = true;
-    }
-
-    $scope.favorite = function (news) {
-        favoritesService.toggleFavorites(news);
-    }
-
-    $scope.isFavorite = function(news){
-        return favoritesService.isFavorite(news);
     }
 
     $scope.toggleFavorites = function () {

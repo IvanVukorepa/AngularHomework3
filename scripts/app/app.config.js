@@ -1,5 +1,6 @@
 ﻿angular.module('app').config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
+    $urlRouterProvider.otherwise('home');
 });
 
 angular.module('app').run(function (localStorageService, $http) {
@@ -8,7 +9,7 @@ angular.module('app').run(function (localStorageService, $http) {
             var value = response.data;
             localStorageService.set('News', value);
         });
-
+    
 });
 
 angular.module('app').run(function (localStorageService, $http) {
