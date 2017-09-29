@@ -4,7 +4,6 @@
         if (favorites == null)
             favorites = [];
 
-        console.log(_.findIndex(favorites, {id: news.id}));
         if (_.findIndex(favorites, { id: news.id }) != -1) 
             favorites.splice(_.findIndex(favorites, { id: news.id }), 1);
         else
