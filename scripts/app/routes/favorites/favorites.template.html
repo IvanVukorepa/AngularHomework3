@@ -1,9 +1,12 @@
 ﻿<h1>Favorites:</h1>
 
 <div ng-repeat="news in favoriteNews">
-    {{news.title}}
+    Title: 
+    {{news.title}}<br>
     <button ui-sref="details({id: news.id})">Details</button>
     <button ng-click="favorite(news)">Unfavorite</button>
+    <br>Comments:<br />
+    <comments-lister comments="news.comments.slice(0,2)"></comments-lister><br /><br />
 </div>
 
 <button ui-sref="home">Back to all news</button>

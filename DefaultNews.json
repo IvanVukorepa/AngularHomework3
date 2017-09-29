@@ -50,5 +50,103 @@
       }
     ],
     "rating": 3
+  },
+  {
+    "id": 5,
+    "title": "Ambiciozni Spliæanin zapao u poslovne probleme, luksuzni stan završio mu na bubnju: prodaje se nekretnina na jednoj od najatraktivnijih gradskih lokacija, od cijene kvadrata zavrtjet æe vam se u glavi",
+    "comments": [
+      {
+        "id": 1,
+        "text": "Kad smo veæ na oglašavanja minjan 2sobni stan za 5sobni na elitnoj lokaciji, cijena nadoplate? prava sitnica hahahahaha"
+      },
+      {
+        "id": 2,
+        "text": "Kliko je FINA zaslužna za iseljavanje,pitam se pitam?"
+      },
+      {
+        "id": 3,
+        "text": "Bolje kupiti vilu a šta se tu toliko cijeni gužva nema parkinga u neboderu hahahah"
+      }
+    ],
+    "rating": 3
+  },
+  {
+    "id": 6,
+    "title": "Policija potvrdila prièu poznatog poduzetnika i sumnje u zlouporabu položaja i sklapanje lihvarskih ugovora: Banka me htjela prikazati lopovom, uništili su me jer nisam htio platiti reket",
+    "comments": [
+      {
+        "id": 1,
+        "text": "I ja bi ga prevario kakvo je ime zgradi Dao?! "
+      },
+      {
+        "id": 2,
+        "text": "Možda Jogun'ca ima pravo siguro se banka uzjogunila pa ga izvozala s euriæima hahahahaha"
+      }
+    ],
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "title": "Austrijski biznismen zatražio pomoæ konzulata u Splitu zbog nevjerojatne aljkavosti suda: Oteli su mi šesterokatnicu uz more, a nitko još nije procesuiran!",
+    "comments": [
+      {
+        "id": 1,
+        "text": "A šta æeš, bidni sudac Goran Èolak, sluèajno falija."
+      },
+      {
+        "id": 2,
+        "text": "i strance raketiraju dobar znak jaèa se pravosuðe"
+      },
+      {
+        "id": 3,
+        "text": "Muèi muèi šjor stranac dobro si živu glavu izvuka hahahahaha"
+      }
+    ],
+    "rating": 8
+  },
+  {
+    "id": 8,
+    "title": "Od 1. listopada niže cestarine na hrvatskim autocestama, evo koliko æe vas odsada koštati put od Splita do Zagreba",
+    "comments": [
+      {
+        "id": 1,
+        "text": "Napokon da se neke cijene i smanjuju."
+      }
+    ],
+    "rating": 6
+  },
+  {
+    "id": 9,
+    "title": "Braèni par bez djece u Hrvatskoj se više neæe zvati obitelj! Najavljene izmjene Obiteljskog zakona veæ izazivaju kontroverze, evo kakve nas promjene oèekuju",
+    "comments": [
+      {
+        "id": 1,
+        "text": "muž i žena su braèni par, a kada dobiju ili usvoje dijete postaju obitelj. obitelj to ostaje biti i nakon odlaska ili neizbježne smrti jednoga od onih koji je saèinjavaju. u sluèaju razvoda roditelja govorimo o razorenoj obitelji."
+      },
+      {
+        "id": 2,
+        "text": "Pa ovo sta se tice CZSS uopce nije lose, nek ga ukinu,ionako nisu nikom nista dobro donili"
+      },
+      {
+        "id": 3,
+        "text": "U èemu je problem? Da bi zajednica bila obitelj treba postojati krvno srodstvo ili èin posvojenja. Što vama nepaše tu? To što bilo kakva zajednica ljudi ne može tražiti posvojenje ako to nije u iznimnom interesu djeteta? To što privremeni skrbnici, udomitelji ne tvore obitelj?"
+      }
+    ],
+    "rating": 4
+  },
+  {
+    "id": 10,
+    "title": "'Ljubav prema Titu trajat æe neprekidno, on je ispisao najslavniji dio naše povijesti': evo kako je nekad govorio zakleti antikomunist kojem se na meti našao èak i Oliver Dragojeviæ!",
+    "comments": [
+      {
+        "id": 1,
+        "text": "A što kazati o vrlom èlanu udruženja književnika velikom spisatelju i nekad predsjedniku minorne udruge dragovoljaca udovica i invalida domovinskog rata podravke. Njegobe pisanije govore sve o njemu i njegovoj velicini pa je iluzorno na takove individue trošiti rijeèi. Zamislite koja smo mi drzava da na napade ovakvo osobe otkazujemo kulturna dogaðanja. Sram nas bilo."
+      },
+      {
+        "id": 2,
+        "text": "Pa svi smo voljeli Tita..dok nas srbi nisu napali i pokazali svoje videnje bratstva i jedinstva i Jugoslavije."
+      }
+    ],
+    "rating": 7
   }
 ]
