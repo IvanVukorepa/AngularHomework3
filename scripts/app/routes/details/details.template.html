@@ -4,10 +4,6 @@
 <br />
 <button ng-click="favorite(chosenNews)">{{isFavorite(chosenNews) ? "Unfavorite" : "Favorite"}}</button>
 <button ui-sref="home">Go back to all news</button>
-<br />
+<br /><br />
 Comments:
-<div ng-repeat="comment in chosenNews.comments">
-    Id: {{comment.id}}
-    <br />
-    Text: {{comment.text}}
-</div>
+<comments-lister comments="chosenNews.comments"></comments-lister>

@@ -18,7 +18,6 @@
     }
 
     this.getAllFavorites = function () {
-        console.log(angular.fromJson(localStorageService.get('Favorites')));
         return angular.fromJson(localStorageService.get('Favorites'));
     }
 });

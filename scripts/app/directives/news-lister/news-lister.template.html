@@ -1,0 +1,5 @@
+﻿<div ng-repeat="news1 in news">
+    {{news1.title}}<br />
+    <button ui-sref="details({id: news1.id})">Details</button>
+    <button ng-click="favorite(news1)">{{isFavorite(news1) ? "Unfavorite" : "Favorite"}}</button>
+</div>
